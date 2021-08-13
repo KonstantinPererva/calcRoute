@@ -178,8 +178,6 @@ window.addEventListener('load', function () {
                 }
             }
 
-            console.log(name, dest, min);
-
             let directionsService = new google.maps.DirectionsService();
 
             directionsService.route({
